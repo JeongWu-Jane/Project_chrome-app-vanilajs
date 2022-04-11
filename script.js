@@ -1,7 +1,2 @@
-const player = {
-  name: "Jane",
-  sayHello: function (otherPersonsName) {
-    console.log("Hello " + otherPersonsName + " Nice to meet you!");
-  },
-};
-player.sayHello("Nico");
+const age = prompt("how old are you?");
+console.log(age);
